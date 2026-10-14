@@ -1,0 +1,6 @@
+﻿method,last_round,experiment_TA,experiment_ASR,special_setting,tensorboard_directories
+FedAvg Clean,200,99.2900,9.7400,,runs/repro_mnist_clean_iid
+FedAvg Attack,200,99.2700,99.9500,,runs/repro_mnist_scaling_fedavg_iid
+FLTrust (lr=0.01),200,99.0000,99.7300,learning rate is shown in method name,runs/repro_mnist_scaling_fltrust_iid
+FLTrust (lr=0.001),200,97.6200,15.8200,learning rate is shown in method name,runs/repro_mnist_scaling_fltrust_iid_lr001
+FedGame Out (nc_steps=10),200,99.0200,9.6600,nc_steps=10,runs/repro_mnist_scaling_fedgame_out_iid_nc10
